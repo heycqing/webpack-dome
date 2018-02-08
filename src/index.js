@@ -1,3 +1,7 @@
+import _ from 'lodash'
+
+//把lodash引入在这个文件中； 
+
 function component(){
     var element = document.createElement('div');
 
