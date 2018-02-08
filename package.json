@@ -7,13 +7,13 @@
     "lodash": "^4.17.5"
   },
   "devDependencies": {
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.20.1",
     "webpack": "^3.10.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-
-    "build":"webpack"
-    
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
