@@ -1,11 +1,11 @@
-import _ from 'lodash'
 //把lodash引入在这个文件中； 
-
-import './style.css'
+import _ from 'lodash'
 // 引入css文件
-
- import jpg from './siqing.jpg'
-//  引入图片
+import './style.css'
+// 引入图片
+import jpg from './siqing.jpg'
+// 引入数据，json数据在node中是默认识别，不需要加载 loader加载器 
+import jsonData from './test.json'
 
 function component(){
     var element = document.createElement('div');
@@ -18,6 +18,8 @@ function component(){
 
     element.appendChild(myPic)
 
+    console.log(jsonData)
+    
     return element;
 }
 

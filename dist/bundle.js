@@ -75,14 +75,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__style_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__siqing_jpg__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__siqing_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__siqing_jpg__);
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__test_json__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__test_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__test_json__);
 //把lodash引入在这个文件中； 
-
 
 // 引入css文件
 
- 
-//  引入图片
+// 引入图片
+
+// 引入数据，json数据在node中是默认识别，不需要加载 loader加载器 
+
 
 function component(){
     var element = document.createElement('div');
@@ -95,6 +97,8 @@ function component(){
 
     element.appendChild(myPic)
 
+    console.log(__WEBPACK_IMPORTED_MODULE_3__test_json___default.a)
+    
     return element;
 }
 
@@ -17917,6 +17921,12 @@ module.exports = function (css) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "5a152b702a4442c1d8e54e8d3a8668de.jpg";
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"小明","age":12}
 
 /***/ })
 /******/ ]);
