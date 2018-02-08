@@ -1,0 +1,23 @@
+{
+  "name": "webpack-dome",
+  "version": "1.0.0",
+  "description": "a simple webpack dome",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heycqing/webpack-dome.git"
+  },
+  "author": "cqing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heycqing/webpack-dome/issues"
+  },
+  "homepage": "https://github.com/heycqing/webpack-dome#readme"
+}
