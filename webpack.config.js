@@ -23,6 +23,11 @@ module.exports = {
             use:[
                 'file-loader'
             ]
+        },{
+            test :/\.xml$/,
+            use:[
+                'xml-loader'
+            ]
         }]
     }
 }

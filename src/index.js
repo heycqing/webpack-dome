@@ -6,7 +6,8 @@ import './style.css'
 import jpg from './siqing.jpg'
 // 引入数据，json数据在node中是默认识别，不需要加载 loader加载器 
 import jsonData from './test.json'
-
+// 引入xml数据
+import xmlData from './test.xml'
 function component(){
     var element = document.createElement('div');
 
@@ -19,6 +20,7 @@ function component(){
     element.appendChild(myPic)
 
     console.log(jsonData)
+    console.log(xmlData)
     
     return element;
 }
