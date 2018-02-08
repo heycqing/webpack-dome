@@ -73,15 +73,27 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__style_css__);
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__siqing_jpg__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__siqing_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__siqing_jpg__);
 
 //把lodash引入在这个文件中； 
+
+
+// 引入css文件
+
+ 
+//  引入图片
 
 function component(){
     var element = document.createElement('div');
 
     element.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hello','webpack'],' ');
     element.classList.add('hello')
+
+    var myPic = new Image();
+    myPic.src = __WEBPACK_IMPORTED_MODULE_2__siqing_jpg___default.a;
+
+    element.appendChild(myPic)
 
     return element;
 }
@@ -17870,6 +17882,12 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "5a152b702a4442c1d8e54e8d3a8668de.jpg";
 
 /***/ })
 /******/ ]);
