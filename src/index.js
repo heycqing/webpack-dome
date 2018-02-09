@@ -2,7 +2,8 @@
 import _ from 'lodash'
 // 引入print.js
  import  print from './print.js'
-
+// 引入css文件
+import './style.css'
 
 function component(){
     var element = document.createElement('div');
